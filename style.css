@@ -4,6 +4,11 @@
     padding: 0;
 }
 
-strong{
-color: crimson;
+body{
+width: 100vw;
+height: 100vh;
+}
+
+strong {
+    color: crimson;
 }
