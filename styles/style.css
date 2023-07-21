@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    
+}
+
+:root{
+    --color-primary: #f7e7f2;
+    --gutter: 1.6rem;
+}
+
+img{
+    display: block;
+}
+
+body{
+    font-size: 62,5%;
+    font-family: 'montserrat', Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height: 40%;
+    background-image: url(../ressources/vb-fond.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.main{
+    padding: 0 var(--gutter);
+    position: relative;
+}
+
+.expertise{
+    background: var(--color-primary);
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2) ;
+    padding: 1rem var(--gutter);
+    position: relative;
+    bottom : 1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.expertise__details {
+    padding: var(--gutter) 0;
+    width: 25%;
+    margin-right: var(--gutter);
+    /* border: 1px solid #000; */
+}
+
+.expertise__details-title{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: var(--gutter);
+}
+
+.expertise__details-text{
+    font-size: 1rem;
+    width: 100%;
+}
+
+.expertise__skills{
+    padding: var(--gutter) 0;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    justify-content: space-between;
+}
+
+.expertise__skill{
+    width: 33%;
+    padding: 1rem;
+    /* border: 1px solid #000 */
+}
+
+.expertise__skill-title{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: var(--gutter);
+}
+
+.expertise__skill-text{
+    font-size: 0.9rem;
+}
